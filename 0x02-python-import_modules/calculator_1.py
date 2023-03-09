@@ -19,19 +19,31 @@ def add(a, b):
             a: first integer
             b: second integer
 
-            Returns:
+        Returns:
                 The return value. a - b
-            """
-            return (a - b)
+        """
+        return (a - b)
 
-        def mul(a, b):
-            """My multiplication function
+    def mul(a, b):
+        """My multiplication function
 
-            Args:
-                a: first integer
-                b: second integer
+        Args:
+           a: first integer
+          b: second integer
             
-            Returns:
-                The return value. a/b
-            """
-            return int(a /b)
+        Returns:
+            The return value. a * b
+        """
+        return (a * b)
+
+    def div(a, b):
+        """My division function
+
+       Args:
+          a: first integer
+          b: second integer
+
+       Returns:
+          The return value. a / b
+       """
+       return int(a /b)
