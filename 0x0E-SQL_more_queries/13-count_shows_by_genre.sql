@@ -1,4 +1,4 @@
---lists all genres from hbtn_0d tv shows and displays shows linked to each genre
+--lists all genres and displays shows linked to each genre
 SELECT tv_genres.name AS genre, COUNT(*) AS number_of_shows
 	FROM tv_genres
 	JOIN tv_show_genres
